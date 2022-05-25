@@ -1,9 +1,16 @@
 'use strict'
 
+//faccio inserire un numero all'utente
+let numeroUtente = parseInt(prompt('Inserisci un numero!'))
+console.log(numeroUtente)
 
+const arrayNuovi = []
 
+while (arrayNuovi === numeroUtente) {
+    
 
-
+}
+console.log(arrayNuovi)
 
 
 /*
