@@ -12,8 +12,8 @@ while (k < numeroUtente) {
         for (let i = 0; i < 10; i++) {
             arrayNuovi[i] = Math.floor(Math.random() * 100) + 1
         }
-    console.log(arrayNuovi)
     k++
+    console.log(arrayNuovi)
 }
 
 /*
