@@ -1,21 +1,24 @@
 'use strict'
 
 //faccio inserire un numero all'utente
-const numeroUtente = parseInt(prompt('Inserisci un numero!'))
+let numeroUtente = parseInt(prompt('Inserisci un numero!'))
 console.log(numeroUtente)
 
 let arrayNuovo = []
 
 //creo un numero di array uguale al numero inserito dall'utente
+for (let k = 0; k < numeroUtente; k++) {
+    arrayNuovo === numeroUtente[k]
 
-
-// per ogni array creo 10 numeri random da 1 - 100
-for (let i = 0; i < 10; i++) {
+    // per ogni array creo 10 numeri random da 1 - 100
+    for (let i = 0; i < 10; i++) {
         arrayNuovo[i] = Math.floor(Math.random() * 100) + 1
     }
+    console.log(arrayNuovo)
+}
 
 
-console.log(arrayNuovo)
+
 
 
 /*
