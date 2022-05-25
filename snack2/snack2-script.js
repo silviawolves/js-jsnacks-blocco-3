@@ -4,22 +4,17 @@
 let numeroUtente = parseInt(prompt('Inserisci un numero!'))
 console.log(numeroUtente)
 
-let arrayNuovo = []
+let arrayNuovi = []
+let k = 0
 
-//creo un numero di array uguale al numero inserito dall'utente
-for (let k = 0; k < numeroUtente; k++) {
-    arrayNuovo === numeroUtente[k]
-
-    // per ogni array creo 10 numeri random da 1 - 100
-    for (let i = 0; i < 10; i++) {
-        arrayNuovo[i] = Math.floor(Math.random() * 100) + 1
-    }
-    console.log(arrayNuovo)
+while (k < numeroUtente) {
+    arrayNuovi === numeroUtente[k]
+        for (let i = 0; i < 10; i++) {
+            arrayNuovi[i] = Math.floor(Math.random() * 100) + 1
+        }
+    console.log(arrayNuovi)
+    k++
 }
-
-
-
-
 
 /*
 Fai inserire un numero, che chiameremo N, all’utente.
