@@ -1,6 +1,20 @@
 'use strict'
 
+const invitatiGatsby = ['Zelda Sayre', 'Daisy Fay', 'Jordan Baker', 'Nick Carraway', 'Francis Scott Fitzgerald', 'Myrtle Wilson', 'Tom Buchanan', 'George Wilson', 'Meyer Wolfsheim']
+console.log(invitatiGatsby)
 
+const nomeInserito = prompt("Inserisci il tuo nome per entrare a villa Gatsby.")
+let invitoFesta = false
+
+do {
+    for (let i = 0; i < invitatiGatsby.length; i++) {
+        if (nomeInserito === invitatiGatsby[i]) {
+            invitoFesta = true
+            console.log(`${nomeInserito} puoi partecipare alla festa!`)
+        }
+    console.log(invitatiGatsby[i])
+    }
+} while (invitoFesta = false)
 
 
 /*
